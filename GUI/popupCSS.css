@@ -1,0 +1,92 @@
+#root{
+    -fx-background-color: #EEEEF0;
+    -fx-alignment: center;
+    -fx-spacing: 2px;
+    -fx-padding: 20px;
+    -fx-background-radius: 20px;
+}
+
+#towerChooserPopup{
+    -fx-alignment: center;
+    -fx-spacing: 4px;
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 60px;
+}
+#multiPlayerPopup{
+
+    -fx-alignment: center;
+    -fx-spacing: 4px;
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 60px;
+}
+
+.label{
+    -fx-padding: 0px 10px 5px 10px;
+    -fx-font: bold 30px "Jokerman" ;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 2px;
+    -fx-text-alignment: center;
+}
+
+#info{
+    -fx-font:bold 20px "Jokerman";
+    -fx-padding: 0 0 20px 0;
+}
+
+#lineWrapper{
+    -fx-alignment: center;
+    -fx-spacing: 2px;
+}
+
+.button{
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #000000;
+    -fx-padding: 0px 10px 5px 10px;
+    -fx-font: bold 30px "Jokerman" ;
+    -fx-background-radius: 2px;
+}
+
+.button:hover{
+    -fx-background-color: #333333;
+}
+
+.check-box{
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 5px;
+    -fx-text-fill: #000000;
+    -fx-font: bold 30px "chiller" ;
+    -fx-background-radius: 2px;
+}
+
+.slider{
+    -fx-max-width: 120px;
+    -fx-padding: 15px 10px 14px 0px;
+}
+
+#sliderLabel{
+    -fx-padding: 0px 0px 5px 10px;
+}
+
+#changeVolumeWrapper{
+    -fx-alignment: center;
+    -fx-spacing:0px;
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 0px;
+    -fx-background-radius: 2px;
+    -fx-max-width:260px;
+}
+
+#navButton{
+    -fx-font: bold 50px "Jokerman";
+}
+
+#mapSlideShow{
+    -fx-effect: dropshadow(gaussian , #000000 , 30, 0, 0, 0 );
+}
+.text-field{
+    -fx-font: bold 30px "chiller" ;
+    -fx-text-fill: #000000;
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 0px 10px 5px 10px;
+    -fx-max-width: 150px;
+}

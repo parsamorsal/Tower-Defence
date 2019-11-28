@@ -1,0 +1,104 @@
+.root{
+    -fx-alignment: center;
+    -fx-background-color: #FFFFFF;
+    -fx-spacing: 2px;
+}
+
+#menuWrapperWrapper{
+    -fx-alignment: center;
+    -fx-background-color: #FFFFFF;
+    -fx-spacing: 2px;
+}
+
+#menuWrapper{
+    -fx-alignment: center;
+    -fx-spacing: 2px;
+    -fx-background-color: #000000;
+    -fx-padding: 40px 30px 10px 30px;
+    -fx-background-radius: 10px;
+}
+
+#mapPreview{
+    -fx-effect: dropshadow(gaussian , #FFFFFF , 20, 0, 0, 0 );
+}
+
+#mapPreview:hover{
+    -fx-effect: dropshadow(gaussian , #FFFFFF , 10, 0, 0, 0 );
+}
+
+.label{
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 0px 10px 5px 10px;
+    -fx-font: bold 30px "chiller" ;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 2px;
+    -fx-text-alignment: center;
+}
+
+#info{
+    -fx-font: bold 55px "chiller" ;
+}
+
+#lineWrapper{
+    -fx-alignment: center;
+    -fx-spacing: 2px;
+}
+
+#nameField{
+    -fx-font: bold 30px "chiller" ;
+    -fx-text-fill: #000000;
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 0px 10px 5px 10px;
+    -fx-max-width: 150px;
+}
+
+.button{
+    -fx-text-fill: #000000;
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 0px 10px 5px 10px;
+    -fx-font: bold 30px "chiller" ;
+    -fx-background-radius: 2px;
+}
+
+.button:hover{
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #000000;
+    -fx-padding: 0px 10px 5px 10px;
+    -fx-font: bold 30px "chiller" ;
+    -fx-background-radius: 2px;
+}
+
+.check-box{
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 5px;
+    -fx-text-fill: #000000;
+    -fx-font: bold 30px "chiller" ;
+    -fx-background-radius: 2px;
+}
+
+.slider{
+    -fx-max-width: 120px;
+    -fx-padding: 15px 10px 14px 0px;
+}
+
+#sliderLabel{
+    -fx-padding: 0px 0px 5px 10px;
+}
+
+#changeVolumeWrapper{
+    -fx-alignment: center;
+    -fx-spacing:0px;
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 0px;
+    -fx-background-radius: 2px;
+    -fx-max-width:260px;
+}
+
+#errorLabel{
+    -fx-background-color: #000000;
+    -fx-padding: 0px 10px 5px 10px;
+    -fx-font: bold 20px "chiller" ;
+    -fx-text-fill: #FFFFFF;
+    -fx-text-alignment: center;
+}
+

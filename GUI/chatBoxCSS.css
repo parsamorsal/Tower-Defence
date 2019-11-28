@@ -1,0 +1,47 @@
+#chatBox{
+    -fx-background-color: #EEEEF0;
+    -fx-padding: 5px;
+}
+
+#chatWindowInfo {
+    -fx-font: bold 20px "Modern No. 20" ;
+    -fx-padding:5px 0px 0px 10px;
+}
+
+#scrolPane{
+    -fx-background-image: url("/files/images/backgrounds/bg2.gif");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+#chatHistory{
+    -fx-background-color: transparent;
+    -fx-padding: 10px;
+    -fx-spacing: 7px;
+}
+
+#messageField{
+}
+
+.clientMsg{
+    -fx-alignment: top_right;
+}
+
+#senderName{
+    -fx-font: bold  20px "Agency FB";
+}
+
+#msgText{
+    -fx-padding: 0 0 0 5px;
+}
+
+#msgTime{
+    -fx-font: bolder 10px "Eras Bold ITC";
+    -fx-text-fill:#555555
+}
+
+#sendButton{
+    -fx-alignment: center;
+    -fx-font: bold 20px "Modern No. 20" ;
+    -fx-padding: 2px 10px 2px 10px;
+}
